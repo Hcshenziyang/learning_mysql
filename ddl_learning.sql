@@ -106,4 +106,4 @@ alter table tasks modify status enum('Open','In Progress','Done','Blocked','New'
 alter table tasks change description task_details  text null;
 
 alter table tasks drop due_date;
-drop database industrial_project_management;
+-- drop database industrial_project_management;
